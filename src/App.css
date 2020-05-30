@@ -1,0 +1,81 @@
+body {
+    background-color: hsl(270, 5%, 53%);
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
+  .mydiv{
+      padding: 10px;
+      margin: 10px;
+      
+  }
+  .additem{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    }
+  .input{
+      border-radius: 12px;
+      padding: 10px 20px 16px;
+      text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+
+  }
+  .click{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lavender;
+    border-radius: 12px;
+    display: inline-block;
+    padding-left: 10px;
+    padding: 10px 10px 16px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s; 
+    border: none;
+    margin: 10px;
+  }
+
+  .click:hover {
+    background-color:black;
+    opacity: 0.5;
+    color: lavender;
+  }
+  
+  .listeleme{
+      list-style: decimal;
+      text-align: center;
+      list-style-position: inside;
+
+  }
+  .items{
+      background-color: rgba(14, 10, 17, 0.63);
+      border-radius: 12px;
+      padding: 10px 10px 16px;
+      margin: auto;
+      width:600px;
+      align-items: center;
+      position: relative;
+      
+  }
+  .element{
+      margin: 12px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .delete{
+      border-radius: 12px;
+      margin: 15px;
+      background-color: red;
+      border: none;
+      color: whitesmoke;
+      cursor: pointer;
+      width: 28px;
+      height: 25px;
+      text-align: center;    
+  }
+  .delete:hover {
+    background-color:black;
+    opacity: 0.5;
+  }
